@@ -88,3 +88,20 @@ footer .hy{position:absolute;right:14px;bottom:8px;width:80px;opacity:.9}
 .g3,.g4{grid-template-columns:repeat(2,1fr)}.g2{grid-template-columns:1fr}.dbody{grid-template-columns:1fr}.mosaic{grid-template-columns:repeat(2,1fr)}.day{grid-template-columns:70px 1fr}}
 @media(max-width:520px){.logo img{width:60px;height:60px;margin-bottom:-16px}.logo span{display:none}.g3,.g4{grid-template-columns:1fr}.st{font-size:1.7rem}.deco{opacity:.5}}
 .social svg{width:20px;height:20px}
+
+/*EXPERIENCE*/
+.xp{position:relative;overflow:hidden;padding-bottom:0!important}
+.xt{display:flex;align-items:center;justify-content:center;gap:14px;font:700 clamp(2rem,6vw,2.8rem) 'Dancing Script',cursive;color:var(--wine2);text-align:center;margin-top:6px}
+.xt .lf{width:46px;color:var(--rose);flex:none}.xt .lf:last-child{transform:scaleX(-1)}
+.xs{text-align:center;color:#7a5a60;font-size:.92rem;margin:6px 0 26px}
+.xg{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 18px}
+.xc{text-align:center}
+.xi{position:relative;margin-bottom:30px}
+.xi img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;box-shadow:0 6px 18px rgba(138,28,60,.2)}
+.xi i{position:absolute;left:50%;bottom:-24px;width:50px;height:50px;margin-left:-25px;border-radius:50%;background:#f5d3cb;color:var(--wine);display:grid;place-items:center;border:3px solid var(--bg);box-shadow:0 3px 10px rgba(138,28,60,.15)}
+.xi i svg{width:26px;height:26px}
+.xc h3{font:700 .95rem 'Poppins',sans-serif;color:var(--ink);margin-bottom:4px}
+.xc p{font-size:.8rem;line-height:1.5;color:#7a5a60;max-width:230px;margin:auto}
+.xf{text-align:center;font-size:1.9rem;margin:34px 0 0;position:relative;z-index:2}
+.pines{display:block;width:100%;height:110px;margin-top:-30px;color:#d7a9ae}
+@media(max-width:520px){.xg{gap:22px 10px}.xi i{width:40px;height:40px;margin-left:-20px;bottom:-20px}.xi i svg{width:21px;height:21px}.xc h3{font-size:.78rem}.xc p{font-size:.66rem}.xt .lf{width:30px}.xt{gap:8px}.xs{font-size:.82rem}}
