@@ -87,3 +87,4 @@ footer .hy{position:absolute;right:14px;bottom:8px;width:80px;opacity:.9}
 @media(max-width:860px){.burger{display:block}.nav ul{display:none;position:absolute;top:62px;left:0;right:0;background:var(--card);flex-direction:column;padding:18px;gap:12px}.nav ul.open{display:flex}
 .g3,.g4{grid-template-columns:repeat(2,1fr)}.g2{grid-template-columns:1fr}.dbody{grid-template-columns:1fr}.mosaic{grid-template-columns:repeat(2,1fr)}.day{grid-template-columns:70px 1fr}}
 @media(max-width:520px){.logo img{width:60px;height:60px;margin-bottom:-16px}.logo span{display:none}.g3,.g4{grid-template-columns:1fr}.st{font-size:1.7rem}.deco{opacity:.5}}
+.social svg{width:20px;height:20px}
