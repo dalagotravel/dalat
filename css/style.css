@@ -105,3 +105,13 @@ footer .hy{position:absolute;right:14px;bottom:8px;width:80px;opacity:.9}
 .xf{text-align:center;font-size:1.9rem;margin:34px 0 0;position:relative;z-index:2}
 .pines{display:block;width:100%;height:110px;margin-top:-30px;color:#d7a9ae}
 @media(max-width:520px){.xg{gap:22px 10px}.xi i{width:40px;height:40px;margin-left:-20px;bottom:-20px}.xi i svg{width:21px;height:21px}.xc h3{font-size:.78rem}.xc p{font-size:.66rem}.xt .lf{width:30px}.xt{gap:8px}.xs{font-size:.82rem}}
+
+/*LANG SWITCH*/
+.lang{display:flex;align-items:center;gap:6px;font-size:.85rem;white-space:nowrap}
+.lang button{background:none;border:0;padding:2px 1px;font:600 .88rem 'Poppins',sans-serif;color:#a09488;cursor:pointer;transition:color .2s}
+.lang button:hover{color:var(--wine2)}
+.lang button.on{color:var(--wine);font-weight:700}
+.lang span{color:#c9bcb0}
+@media(min-width:861px){.nav ul{gap:14px;font-size:.82rem}}
+.nav ul li{white-space:nowrap}
+@media(min-width:861px) and (max-width:1080px){.logo span{display:none}.nav ul{gap:10px;font-size:.78rem}.nav .btn{padding:8px 16px;font-size:.8rem}.lang{gap:4px}.lang button{font-size:.8rem}}
